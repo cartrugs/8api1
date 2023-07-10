@@ -1,0 +1,62 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 1.7emem;
+}
+
+p.encabezado {
+    font-size: 3rem;
+}
+
+.encabezado {
+    background-color: rgb(187, 238, 238);
+    text-align: center;
+    color: rgb(233, 30, 98);
+}
+
+.grid-container {
+    display: grid;
+    border-radius: 15px;
+    width: 70%;
+    margin: 0 auto
+}
+
+div.grid-container {
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+div.caja-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(144, 154, 238);
+    border-radius: 25px;
+    border: 2px solid rgb(95, 106, 204);
+}
+
+/* media queries */
+
+@media only screen and (min-width: 768px) {
+    .encabezado-content,
+    .noticias {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .noticias {
+        gap: 20px;
+    }
+  }
