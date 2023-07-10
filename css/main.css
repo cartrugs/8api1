@@ -1,0 +1,33 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+}
+
+h1 {
+    
+    font-size: 6rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+.encabezado {
+    text-align: center;
+    color: rgb(233, 30, 98);
+}
+
+.grid-container {
+    display: grid;
+    background-color: rgb(187, 238, 238);
+    border-radius: 15px;
+    width: 70%;
+    margin: 0 auto
+}
